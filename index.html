@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebi Sonali Sahoo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>Bebi Sonali Sahoo</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">Bebi Sonali Sahoo</span></h1>
+                    <h2>Data Science Enthusiast & Python Full-Stack Developer</h2>
+                    <p>4th-year B.Tech CSE student specializing in Data Science, passionate about turning data into insights and building innovative solutions.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Bebi-Sonali-Sahoo" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/bebisonali-sahoo-727824247" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="professional pic.jpg" alt="Bebi Sonali Sahoo" id="profile-image">
+                        <div class="image-upload-overlay">
+                            <input type="file" id="image-upload" accept="image/*" style="display: none;">
+                            <button class="upload-btn" onclick="document.getElementById('image-upload').click()">
+                                <i class="fas fa-camera"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a dedicated 4th-year Computer Science and Engineering student with a specialization in Data Science. My passion lies in extracting meaningful insights from complex datasets and building robust full-stack applications using Python.</p>
+                    <p>With a strong foundation in machine learning, statistical analysis, and web development, I strive to bridge the gap between data science and practical software solutions. I'm always eager to learn new technologies and tackle challenging problems.</p>
+                    <div class="cv-section">
+                        <h3>Download My CV</h3>
+                        <div class="cv-download-area">
+                            <div class="cv-display">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Bebi_Sonali_Sahoo_CV</span>
+                            </div>
+                            <a href="Bebi_Sonali_Sahoo_CV.pdf" class="btn btn-primary" download="Bebi_Sonali_Sahoo_CV.pdf">
+                                <i class="fas fa-download"></i> Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Data Science</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Machine Learning</span>
+                        <span class="skill-item">Deep Learning</span>
+                        <span class="skill-item">Pandas</span>
+                        <span class="skill-item">NumPy</span>
+                        <span class="skill-item">Scikit-learn</span>
+                        <span class="skill-item">TensorFlow</span>
+                        <span class="skill-item">Matplotlib</span>
+                        <span class="skill-item">Seaborn</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Full-Stack Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">Django</span>
+                        <span class="skill-item">HTML/CSS</span>
+                        <span class="skill-item">PostgreSQL</span>
+                        <span class="skill-item">CRUD APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-item">Jupyter</span>
+                        <span class="skill-item">VS Code</span>
+                        <span class="skill-item">Power BI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech in Computer Science & Engineering</h3>
+                        <h4>Specialization in Data Science</h4>
+                        <span class="timeline-date">2022 - 2026</span>
+                        <p>Currently pursuing my undergraduate degree with a focus on data science, machine learning, and software development. Maintaining strong academic performance while working on various projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Python Developer Intern</h3>
+                        <h4>Appticode Private Limited</h4>
+                        <span class="timeline-date">Summer 2025</span>
+                        <p>Developed web applications using Django , worked with databases, and contributed to full-stack development projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Data Science Intern</h3>
+                        <h4>My Daily Work</h4>
+                        <span class="timeline-date">Summer 2024</span>
+                        <p>Worked on real-world data science projects, implementing machine learning models and creating data visualizations to support business decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="demand forecasting.png" alt="Demand Forecasting Model">
+                    </div>
+                    <div class="project-content">
+                        <h3>Demand Forecasting Model</h3>
+                        <p>Built a machine learning model using historical sales and market data to forecast demand. Reduced stockouts and improved resource allocation by enhancing inventory planning accuracy.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>Jupyter</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="btn btn-small">Live Demo</a> -->
+                            <a href="https://github.com/Bebi-Sonali-Sahoo/MES_Project" class="btn btn-outline btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="machine learning.jpeg" alt="Machine Learning Projects">
+                    </div>
+                    <div class="project-content">
+                        <h3>Machine Learning Projects</h3>
+                        <p>Intelligent models that can analyze data and make predictions. Use algorithms like regression, decision trees, or clustering for real-world problems such as classification, recommendation, or forecasting. Include data preprocessing, model training, evaluation (accuracy, precision), and visualization of results.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Scikit-learn</span>
+                            <span>Jupyter</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="btn btn-small">Live Demo</a> -->
+                            <a href="https://github.com/Bebi-Sonali-Sahoo/Machine_Learning_Projects" class="btn btn-outline btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="deep learning.webp" alt="Deep Learning Projects">
+                    </div>
+                    <div class="project-content">
+                        <h3>Deep Learning Projects</h3>
+                        <p>Developed a deep learning model using Convolutional and Artificial Neural Networks to classify human blood groups from fingerprint images. Focused on image preprocessing, feature extraction, and classification. Achieved promising accuracy using TensorFlow/Keras with techniques like augmentation and dropout.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Scikit-learn</span>
+                            <span>CNN</span>
+                            <span>ANN</span>
+                            <span>Jupyter</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- <a href="#" class="btn btn-small">Live Demo</a> -->
+                            <a href="https://github.com/Bebi-Sonali-Sahoo/Deep_Learning_Projects" class="btn btn-outline btn-small">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new opportunities, collaborations, or just having a chat about data science and technology.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>bebisonali50@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 7325995952</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Bebi-Sonali-Sahoo" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/bebi
+                        sonali-sahoo-727824247" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="bebisonali50@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bebi Sonali Sahoo</h3>
+                    <p>Data Science Enthusiast & Python Full-Stack Developer</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/Bebi-Sonali-Sahoo" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/bebi
+                        sonali-sahoo-727824247" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bebi Sonali Sahoo. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
